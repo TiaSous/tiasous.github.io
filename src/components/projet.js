@@ -1,7 +1,6 @@
-import { SlArrowLeft } from "react-icons/sl";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Link from "next/link"
 
-export default function Description() {
+export default function Projet() {
     return (
         <>
             <div className='col-start-4 col-end-8 description'>
@@ -21,15 +20,7 @@ export default function Description() {
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-                <div className='flex justify-around px-24 text-white items-center'>
-                    <div className="bg-red-400 flex items-center justify-around rounded-full h-10 w-20">
-                        <FaArrowLeft />
-                        <p>Outil</p>
-                    </div>
-                    <div className="bg-red-300 flex items-center justify-around rounded-full h-10 w-20">
-                        <p>Projet</p>
-                        <FaArrowRight />
-                    </div>
+                <div className=''>
                 </div>
             </div>
         </>
